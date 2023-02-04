@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4a7e1475aa347ec9e396f56833cbf8, type: 3}
   m_Name: C4
   m_EditorClassIdentifier: 
-  characterSpeaking: 0400000004000000040000000400000004000000000000000100000004000000040000000400000004000000040000000400000004000000040000000400000001000000
+  characterSpeaking: 04000000040000000400000004000000040000000000000001000000040000000400000004000000040000000400000004000000040000000400000001000000
   text:
   - "What\u2019s up guys! "
   - 'I just got an invite to THE MED GALA! '
@@ -29,4 +29,4 @@ MonoBehaviour:
   - "It didn\u2019t make the cut, cause I didn\u2019t like the theme. "
   - It was trees.
   - So here my lovelies take it.
-  - "Cool! Let\u2019s go jam this rhythm  dog!"
+  - "Cool! Let\u2019s go jam this rhythm dog!"
