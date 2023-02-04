@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Test.unity
     guid: 25b280ed1d06ea840a984de141c9892f
+  - enabled: 1
+    path: Assets/Scenes/LeftForest.unity
+    guid: 3a81250b135fad640bee207873da19d8
   m_configObjects: {}
