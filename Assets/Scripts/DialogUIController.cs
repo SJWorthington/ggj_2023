@@ -61,7 +61,7 @@ public class DialogUIController : MonoBehaviour
         var text = currentConversation.text[conversationIndex];
 
         _dialogTextMesh.SetText(text);
-
+        dialogCanvas.SetActive(true);
         //this is really, really good code
         switch (speaker)
         {

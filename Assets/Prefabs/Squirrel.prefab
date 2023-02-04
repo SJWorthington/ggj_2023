@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 8958938497134309406}
   - component: {fileID: 8958938497134309404}
   - component: {fileID: 8958938497134309405}
+  - component: {fileID: 8958938497316895300}
   m_Layer: 6
   m_Name: Squirrel
   m_TagString: Squirrel
@@ -272,6 +273,26 @@ CapsuleCollider2D:
   m_Offset: {x: -0.08950949, y: -0.08309758}
   m_Size: {x: 0.8720865, y: 0.91046596}
   m_Direction: 0
+--- !u!95 &8958938497316895300
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8958938497134309403}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 24e80a02bd1324a7f841975fecd723d5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8958938497251270741
 GameObject:
   m_ObjectHideFlags: 0
