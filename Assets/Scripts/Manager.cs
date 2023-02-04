@@ -17,6 +17,6 @@ public class Manager : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(manager); 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }
