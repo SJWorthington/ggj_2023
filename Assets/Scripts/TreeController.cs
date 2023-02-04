@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class TreeController : MonoBehaviour
@@ -96,8 +95,7 @@ public class TreeController : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.F) && SceneManager.GetActiveScene().buildIndex == 2)
-        {
+        if(Input.GetKeyDown(KeyCode.F) && SceneManager.GetActiveScene().buildIndex == 3){
             Debug.Log("F Pressed");
             GoFish();
         }
