@@ -21,4 +21,5 @@ public class Manager : MonoBehaviour
         DontDestroyOnLoad(manager); 
         SceneManager.LoadScene(1);
     }
+
 }
