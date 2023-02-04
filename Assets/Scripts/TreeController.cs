@@ -47,7 +47,6 @@ public class TreeController : MonoBehaviour
         seconds = (int)sec;
 
         if(alerted){
-            Debug.Log("Alerted");
             if(Input.GetKeyDown("space")){
                 Debug.Log("Loot");
                 //Randomise loot 0 = boot, 1 = tire, 2 = tin can. 

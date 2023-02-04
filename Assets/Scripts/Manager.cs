@@ -9,10 +9,14 @@ public class Manager : MonoBehaviour
 {
     public GameObject manager; 
 
+    public bool boot = false;
+    public bool tire = false;
+    public bool tinCan = false;
+
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(manager); 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }
