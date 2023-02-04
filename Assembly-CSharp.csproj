@@ -41,16 +41,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Scripts/DialogInputController.cs" />
-     <Compile Include="Assets/Scripts/WorldStateManager.cs" />
      <Compile Include="Assets/Scripts/PondFish.cs" />
      <Compile Include="Assets/Scripts/TreeController.cs" />
-     <Compile Include="Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs" />
-     <Compile Include="Assets/Ink/Demos/Basic Demo/Scripts/QuitGameOnKeypress.cs" />
      <Compile Include="Assets/Scripts/InputManager.cs" />
      <Compile Include="Assets/Scripts/Squirrel.cs" />
      <Compile Include="Assets/Scripts/DialogUIController.cs" />
      <Compile Include="Assets/Scripts/Manager.cs" />
+     <Compile Include="Assets/Scripts/Fishing.cs" />
+     <Compile Include="Assets/Scripts/MainMenu.cs" />
+     <Compile Include="Assets/ConversationScripts/ConversationObject.cs" />
+     <Compile Include="Assets/Scripts/ConversationManager.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
@@ -61,13 +61,11 @@
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
-     <None Include="Assets/Ink/package.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
-     <None Include="Assets/Ink/Demos/Basic Demo/Ink/story.json" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
@@ -878,14 +876,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Ink-Libraries.csproj">
-      <Project>{d1bf28fe-ab2d-6542-8873-79007941416a}</Project>
-      <Name>Ink-Libraries</Name>
-    </ProjectReference>
-    <ProjectReference Include="InkEditor.csproj">
-      <Project>{a6e7c7e6-3d6f-2a6f-7ef5-20c6c11dc392}</Project>
-      <Name>InkEditor</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

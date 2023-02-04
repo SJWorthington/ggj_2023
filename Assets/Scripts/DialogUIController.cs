@@ -1,48 +1,105 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.UI;
 
 public class DialogUIController : MonoBehaviour
 {
     //todo - this but less lazy
+    //todo ^ ignore above comment, embrace lazy
     [SerializeField] private GameObject dialogCanvas;
+    [SerializeField] private GameObject tinusCanvas;
+    [SerializeField] private GameObject treeCanvas;
+    [SerializeField] private GameObject tiberiusCanvas;
+    [SerializeField] private GameObject tootersCanvas;
+    [SerializeField] private GameObject trishCanvas;
 
-    //[SerializeField] private DebugUI.Panel _textBgPanel;
-    //[SerializeField] private DebugUI.Panel _portraitBgPanel;
     [SerializeField] private TextMeshProUGUI _dialogTextMesh;
-    //[SerializeField] private Image _portraitImage;
 
-    private float _dialogActiveTime = 0f;
-    private float _maxDialogActiveTime = 10f;
+    private int currentConversationIndex;
+
+    private ConversationObject currentConversation;
+
+    [SerializeField] private InputManager _inputManager;
 
     // Start is called before the first frame update
-    void Start()
-    {
-    }
 
-    // Update is called once per frame
-    void Update()
+    public void UserClickedAButtonWhileWeWereDoingADialogue()
     {
-        if (dialogCanvas.activeSelf)
+        currentConversationIndex++;
+        if (currentConversationIndex == currentConversation.text.Count)
         {
-            _dialogActiveTime += Time.deltaTime;
+            endTheDialog();
+            return;
         }
 
-        if (_dialogActiveTime > _maxDialogActiveTime)
-        {
-            dialogCanvas.SetActive(false);
-            _dialogActiveTime = 0f;
-        }
+        DisplayNextDialog(currentConversationIndex);
     }
 
-    public bool doTinusText(string dialogText)
+    private void endTheDialog()
     {
-        if (dialogCanvas.activeSelf) return false;
-        _dialogTextMesh.SetText(dialogText);
+        this.currentConversation = null;
+        currentConversationIndex = 0;
+        tinusCanvas.SetActive(false);
+        trishCanvas.SetActive(false);
+        tootersCanvas.SetActive(false);
+        tiberiusCanvas.SetActive(false);
+        treeCanvas.SetActive(false);
+        dialogCanvas.SetActive(false);
+        _inputManager.OkayWeCanGoBackToInGameControlsNowThanks();
+    }
+
+    public void startADialog(ConversationObject conversation)
+    {
+        _inputManager.HelloCanWeGoIntoDialogModePlease();
+        this.currentConversation = conversation;
         dialogCanvas.SetActive(true);
-        return true;
+        DisplayNextDialog(0);
+    }
+
+    private void DisplayNextDialog(int conversationIndex)
+    {
+        var speaker = currentConversation.characterSpeaking[conversationIndex];
+        var text = currentConversation.text[conversationIndex];
+
+        _dialogTextMesh.SetText(text);
+
+        //this is really, really good code
+        switch (speaker)
+        {
+            case ConversationObject.Character.TREE:
+                tinusCanvas.SetActive(false);
+                trishCanvas.SetActive(false);
+                tootersCanvas.SetActive(false);
+                tiberiusCanvas.SetActive(false);
+                treeCanvas.SetActive(true);
+                break;
+            case ConversationObject.Character.TINUS:
+                treeCanvas.SetActive(false);
+                trishCanvas.SetActive(false);
+                tootersCanvas.SetActive(false);
+                tiberiusCanvas.SetActive(false);
+                tinusCanvas.SetActive(true);
+                break;
+            case ConversationObject.Character.TRISH:
+                tinusCanvas.SetActive(false);
+                treeCanvas.SetActive(false);
+                tootersCanvas.SetActive(false);
+                tiberiusCanvas.SetActive(false);
+                trishCanvas.SetActive(true);
+                break;
+            case ConversationObject.Character.TOOTERS:
+                tinusCanvas.SetActive(false);
+                treeCanvas.SetActive(false);
+                tiberiusCanvas.SetActive(false);
+                trishCanvas.SetActive(false);
+                tootersCanvas.SetActive(true);
+                break;
+            case ConversationObject.Character.TIBERIUS:
+                tinusCanvas.SetActive(false);
+                treeCanvas.SetActive(false);
+                trishCanvas.SetActive(false);
+                tootersCanvas.SetActive(false);
+                tiberiusCanvas.SetActive(true);
+                break;
+        }
     }
 }

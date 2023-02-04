@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4a7e1475aa347ec9e396f56833cbf8, type: 3}
+  m_Name: C2
+  m_EditorClassIdentifier: 
+  characterSpeaking: 0300000000000000010000000300000003000000030000000300000003000000030000000100000001000000
+  text:
+  - 'M-MOMMY AND DADDY SAID I CANT BE A FISH! '
+  - "\u2026"
+  - We need a gift for TIBERIUS the bear.
+  - "OK I\u2019ll give him my favourite beengle it\u2019s got butterflees on it. "
+  - 'I like butterflees. '
+  - "Mummy told me\u2026 mummy told me you can eat them, but I don\u2019t like them. "
+  - 'I like wormssses  '
+  - 'Wormy wormy wormsees! '
+  - " Bye bye I\u2019m hungry! "
+  - Now we got a cool gift for the bear of the hour!
+  - "Let\u2019s go jam this rhythm!"

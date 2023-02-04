@@ -7,7 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour
 {
-    public GameObject manager; 
+    public GameObject manager;
+
+    public int conversationCounter;
 
     public bool boot = false;
     public bool tire = false;

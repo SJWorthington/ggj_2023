@@ -7,12 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class TreeController : MonoBehaviour
 {
-    private float timer; 
-    private int seconds; 
-    public GameObject alert; 
-    private bool alerted = false; 
+    private float timer;
+    private int seconds;
+    public GameObject alert;
+    private bool alerted = false;
     private bool isFishing = false;
-    public Manager manager; 
+    private Manager manager;
 
     [SerializeField] private int moveSpeed = 10;
     private Rigidbody2D _rb2d;
@@ -23,14 +23,16 @@ public class TreeController : MonoBehaviour
     private static readonly int MoveXProperty = Animator.StringToHash("Move X");
     private static readonly int MoveYProperty = Animator.StringToHash("Move Y");
 
-    Vector2 viewDir = Vector2.zero; 
+    Vector2 viewDir = Vector2.zero;
+
+    [SerializeField] private ConversationManager _conversationManager;
 
     private void Start()
     {
         _rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        seconds = 0; 
-        GameObject empty = GameObject.Find("Manager"); 
+        seconds = 0;
+        GameObject empty = GameObject.Find("Manager");
         manager = empty.GetComponent<Manager>();
         Debug.Log(manager);
     }
@@ -42,56 +44,74 @@ public class TreeController : MonoBehaviour
         animator.SetFloat(MoveXProperty, verticalInput);
         animator.SetFloat(MoveYProperty, horizontalInput);
 
-        timer += Time.deltaTime; 
+        timer += Time.deltaTime;
         float sec = timer % 60;
-        seconds = (int)sec;
+        seconds = (int) sec;
 
-        if(alerted){
-            if(Input.GetKeyDown("space")){
+        if (alerted)
+        {
+            if (Input.GetKeyDown("space"))
+            {
                 Debug.Log("Loot");
                 //Randomise loot 0 = boot, 1 = tire, 2 = tin can. 
-                int rand = UnityEngine.Random.Range(0,3); 
-                if(rand == 0){
-                    if(manager.boot == false){
+                int rand = UnityEngine.Random.Range(0, 3);
+                if (rand == 0)
+                {
+                    if (manager.boot == false)
+                    {
                         manager.boot = true;
                         Debug.Log("Boot caught");
                     }
-                    else{
+                    else
+                    {
                         Debug.Log("Boot already in inventory");
                     }
                 }
-                if(rand == 1){
-                    if(manager.tire == false){
+
+                if (rand == 1)
+                {
+                    if (manager.tire == false)
+                    {
                         manager.tire = true;
                         Debug.Log("Tire caught");
                     }
-                    else{
+                    else
+                    {
                         Debug.Log("Tire already in inventory");
                     }
                 }
-                if(rand == 2){
-                    if(manager.tinCan == false){
+
+                if (rand == 2)
+                {
+                    if (manager.tinCan == false)
+                    {
                         manager.tinCan = true;
                         Debug.Log("tin Can caught");
                     }
-                    else{
+                    else
+                    {
                         Debug.Log("Tin Can already in inventory");
                     }
                 }
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.F) && SceneManager.GetActiveScene().buildIndex == 2){
+        if (Input.GetKeyDown(KeyCode.F) && SceneManager.GetActiveScene().buildIndex == 2)
+        {
             Debug.Log("F Pressed");
-            GoFish(); 
+            GoFish();
         }
 
-        if(isFishing){
-            if(seconds == 3){
+        if (isFishing)
+        {
+            if (seconds == 3)
+            {
                 alert.SetActive(true);
                 alerted = true;
             }
-            if(seconds == 5){
+
+            if (seconds == 5)
+            {
                 alert.SetActive(false);
                 alerted = false;
                 isFishing = false;
@@ -115,6 +135,11 @@ public class TreeController : MonoBehaviour
             LayerMask.GetMask(("NPC")));
         if (hit.collider is not null)
         {
+            if (hit.collider.gameObject.CompareTag("Squirrel"))
+            {
+                _conversationManager.playNextConversation();
+            }
+
             hit.collider.GetComponent<Squirrel>()?.ActivateDialog();
             hit.collider.GetComponent<PondFish>()?.ActivateDialog();
         }
@@ -126,24 +151,26 @@ public class TreeController : MonoBehaviour
         this.horizontalInput = horizontalInput;
         if (verticalInput == 0 && horizontalInput == 0) return;
         viewDir = new Vector2(horizontalInput, verticalInput);
-        viewDir = viewDir.normalized; 
-        
+        viewDir = viewDir.normalized;
     }
 
-    public void ONActionPressed()
+    public void OnActionPressed()
     {
         RaycastForConversation();
     }
 
-    public void GoFish(){
+    public void GoFish()
+    {
         Debug.Log("GoFishCalled");
         //RaycastHit2D cast1; 
         Debug.Log(viewDir);
         Debug.Log(Vector2.right);
-        if (Physics2D.Raycast(_rb2d.position + Vector2.up * 0.2f, viewDir, 1.5f,LayerMask.GetMask(("Water"))).collider != null){
+        if (Physics2D.Raycast(_rb2d.position + Vector2.up * 0.2f, viewDir, 1.5f, LayerMask.GetMask(("Water")))
+            .collider != null)
+        {
             Debug.Log("Raycast Hit");
-            seconds = 0; 
-            timer = 0; 
+            seconds = 0;
+            timer = 0;
             isFishing = true;
         }
         /*

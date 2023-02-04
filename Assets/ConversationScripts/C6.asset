@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4a7e1475aa347ec9e396f56833cbf8, type: 3}
+  m_Name: C6
+  m_EditorClassIdentifier: 
+  characterSpeaking: 0100000001000000010000000100000001000000010000000100000001000000010000000100000001000000020000000200000001000000010000000100000002000000
+  text:
+  - "Don\u2019t fret pet!"
+  - "O\u2019l TINUS has a surprise for that ol\u2019 bag of fluff. "
+  - 'I happen to know that he loves nuts.  '
+  - 'And look what I have right here. '
+  - 'I just happen to have had the perfect rhythm all along! '
+  - 'Cool your jets a moment, while I give it to him.  '
+  - 'My man! My main main man!  '
+  - "Look what o\u2019l TINUS has brought you! "
+  - 'A sweet Little nut for your nut collection!  '
+  - 'Look maybe you can sweeten the deal and give my friend a place to stay? '
+  - "You know what I\u2019m saying? "
+  - 'Very well TINUS the squirrel. '
+  - 'Your leafy friend may plant himself where he likes! '
+  - 'Thanks! You are the baddest bear ya know that?  '
+  - 'Might I also say how devilishly handsome you are too. '
+  - " Your eyes are like diamonds \u2026and that long tail so extra fluffy. "
+  - "Thank you TINUS, I\u2019ve always liked you dah best dog."

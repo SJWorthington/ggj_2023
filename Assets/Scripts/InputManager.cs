@@ -4,7 +4,7 @@ public class InputManager : MonoBehaviour
 {
     private ControlState _controlState = ControlState.IN_GAME;
     [SerializeField] private TreeController _treeController;
-    [SerializeField] private DialogInputController _dialogInputController;
+    [SerializeField] private DialogUIController _dialogUIController;
 
     enum ControlState
     {
@@ -21,15 +21,25 @@ public class InputManager : MonoBehaviour
             _treeController.UpdateAxes(verticalInput, horizontalInput);
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                _treeController.ONActionPressed();
+                _treeController.OnActionPressed();
             }
         }
         else
         {
             if (Input.anyKeyDown)
             {
-                _dialogInputController.SomethingWasPressedAndNowDoAThingPlease();
+                _dialogUIController.UserClickedAButtonWhileWeWereDoingADialogue();
             }
         }
     }
+
+    public void HelloCanWeGoIntoDialogModePlease()
+    {
+        this._controlState = ControlState.DIALOG;
+    }
+
+    public void OkayWeCanGoBackToInGameControlsNowThanks()
+    {
+        this._controlState = ControlState.IN_GAME;
+    } 
 }

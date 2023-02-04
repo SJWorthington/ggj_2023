@@ -37,17 +37,18 @@ public class PondFish : MonoBehaviour
         }
     }
 
+    //todo - delete
     public void ActivateDialog()
     {
-        if (FindObjectOfType<WorldStateManager>().hasSpokenToSquirrel)
-        {
-            textMesh.text = postSquirrelDialog;
-        }
-        else
-        {
-            textMesh.text = preSquirrelDialog;
-        }
-
-        dialogWindow.SetActive(true);
+        // if (FindObjectOfType<WorldStateManager>().hasSpokenToSquirrel)
+        // {
+        //     textMesh.text = postSquirrelDialog;
+        // }
+        // else
+        // {
+        //     textMesh.text = preSquirrelDialog;
+        // }
+        //
+        // dialogWindow.SetActive(true);
     }
 }
