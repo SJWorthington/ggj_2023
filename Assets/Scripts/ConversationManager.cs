@@ -28,6 +28,7 @@ public class ConversationManager : MonoBehaviour
 
         //todo - this is bad code
         manager.conversationCounter++;
+        
         //todo - move controller state to DIALOG
         //Doing it here is crap code, but oh well lol
         _dialogUIController.startADialog(nextConversation);

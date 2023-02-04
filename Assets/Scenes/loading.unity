@@ -556,6 +556,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manager: {fileID: 1380666662}
+  cave: {fileID: 1307654957347975035, guid: 5306c5829c85aaa4398182e4ca9b50ae, type: 3}
+  squirrel: {fileID: 8958938497134309403, guid: b8d0b8b14beea0a46b5014522937bd48, type: 3}
+  turtle: {fileID: 4917290859884582147, guid: b4fb905271905824fb8920c6a003831d, type: 3}
+  bird: {fileID: 8430762290672188333, guid: 12957b6e68e3f3149b6d5b1313b29645, type: 3}
+  conversationCounter: 0
   boot: 0
   tire: 0
   tinCan: 0
