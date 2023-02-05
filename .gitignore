@@ -134,3 +134,7 @@ Thumbs.db.meta
 
 # VS Code
 *.vscode
+
+#Music
+*.wav
+*.mp3
