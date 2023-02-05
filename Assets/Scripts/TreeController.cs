@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class TreeController : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class TreeController : MonoBehaviour
     private Rigidbody2D _rb2d;
     private float horizontalInput;
     private float verticalInput;
+    public TextMeshProUGUI output; 
 
     private Animator animator;
     private static readonly int MoveXProperty = Animator.StringToHash("Move X");
@@ -59,11 +61,11 @@ public class TreeController : MonoBehaviour
                     if (manager.boot == false)
                     {
                         manager.boot = true;
-                        Debug.Log("Boot caught");
+                        output.text = "Boot caught";
                     }
                     else
                     {
-                        Debug.Log("Boot already in inventory");
+                        output.text = "Boot already in inventory";
                     }
                 }
 
@@ -72,11 +74,11 @@ public class TreeController : MonoBehaviour
                     if (manager.tire == false)
                     {
                         manager.tire = true;
-                        Debug.Log("Tire caught");
+                        output.text = "Tire caught";
                     }
                     else
                     {
-                        Debug.Log("Tire already in inventory");
+                        output.text ="Tire already in inventory";
                     }
                 }
 
@@ -85,11 +87,11 @@ public class TreeController : MonoBehaviour
                     if (manager.tinCan == false)
                     {
                         manager.tinCan = true;
-                        Debug.Log("tin Can caught");
+                        output.text = "Tin can caught";
                     }
                     else
                     {
-                        Debug.Log("Tin Can already in inventory");
+                        output.text = "Tin can already in inventory";
                     }
                 }
             }
@@ -114,6 +116,7 @@ public class TreeController : MonoBehaviour
                 alert.SetActive(false);
                 alerted = false;
                 isFishing = false;
+                output.text = " ";
             }
         }
     }
