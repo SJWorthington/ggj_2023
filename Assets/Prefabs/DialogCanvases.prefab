@@ -440,6 +440,7 @@ GameObject:
   - component: {fileID: 6716903518523956461}
   - component: {fileID: 6716903518523956458}
   - component: {fileID: 6716903518523956459}
+  - component: {fileID: 6716903520184603851}
   m_Layer: 5
   m_Name: PortraitImage
   m_TagString: Untagged
@@ -465,7 +466,7 @@ RectTransform:
   m_AnchorMin: {x: 0.09325, y: 0.10644445}
   m_AnchorMax: {x: 0.22212502, y: 0.33388895}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 1.8000038}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6716903518523956461
 CanvasRenderer:
@@ -519,6 +520,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AspectMode: 1
   m_AspectRatio: 1
+--- !u!95 &6716903520184603851
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6716903518523956457}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9df2d33a542a34f92b40a7150a81f6d7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6716903518552040970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1619,7 +1640,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6716903519016929680
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2592,7 +2613,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6716903519454779637
 Transform:
   m_ObjectHideFlags: 0
@@ -2850,7 +2871,7 @@ RectTransform:
   m_AnchorMin: {x: 0.080000006, y: 0.07774921}
   m_AnchorMax: {x: 0.22100002, y: 0.3576238}
   m_AnchoredPosition: {x: 7, y: -1.5}
-  m_SizeDelta: {x: 0, y: -3}
+  m_SizeDelta: {x: 28.544537, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6716903519557078361
 CanvasRenderer:

@@ -13443,8 +13443,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.14012992, g: 0.6320754, b: 0.26038325, a: 1}
+  m_Sprite: {fileID: 21300000, guid: c1f9f8d29fbd647078b429576aa3aef3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13463,7 +13463,7 @@ Transform:
   m_GameObject: {fileID: 1868933339}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -15447,14 +15447,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6716903518523956456, guid: 73283c33569b54d8cace7d5bbe8aaf0b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6716903519016929692, guid: 73283c33569b54d8cace7d5bbe8aaf0b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6716903519296243782, guid: 73283c33569b54d8cace7d5bbe8aaf0b, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -15503,37 +15495,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogCanvases
       objectReference: {fileID: 0}
-    - target: {fileID: 6716903519557078340, guid: 73283c33569b54d8cace7d5bbe8aaf0b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73283c33569b54d8cace7d5bbe8aaf0b, type: 3}
---- !u!1 &6716903520184603850 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6716903518523956457, guid: 73283c33569b54d8cace7d5bbe8aaf0b, type: 3}
-  m_PrefabInstance: {fileID: 6716903520184603849}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &6716903520184603851
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6716903520184603850}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9df2d33a542a34f92b40a7150a81f6d7, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &7583982065606397522
 PrefabInstance:
   m_ObjectHideFlags: 0
