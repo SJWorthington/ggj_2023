@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4a7e1475aa347ec9e396f56833cbf8, type: 3}
   m_Name: C7
   m_EditorClassIdentifier: 
-  characterSpeaking: 0000000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000000000000
+  characterSpeaking: 000000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000000000001000000
   text:
   - ...
   - 'AH! '
@@ -28,3 +28,4 @@ MonoBehaviour:
   - 'Would you consider parking it here? With me? '
   - 'What do ya say friend? '
   - Yes!
+  - With a real friend here, I really feel I have roots now dog
