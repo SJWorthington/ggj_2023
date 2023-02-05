@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4a7e1475aa347ec9e396f56833cbf8, type: 3}
   m_Name: C0
   m_EditorClassIdentifier: 
-  characterSpeaking: 01000000010000000100000001000000
+  characterSpeaking: 0100000001000000010000000100000001000000
   text:
   - Hey there cat, welcome!
   - I gotta introduce you to the baddest spang a lang around.
   - 'His name''s TIBERIUS.  '
   - His vibe is our vibe on this island dig?
+  - Let's go hit up his cave

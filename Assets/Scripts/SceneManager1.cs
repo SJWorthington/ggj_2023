@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,7 @@ using UnityEngine;
 public class SceneManager1 : MonoBehaviour
 {
     public GameObject cave;
-    public GameObject squirrel; 
+    public GameObject squirrel;
     public Manager manager;
 
     void Start()
@@ -18,6 +19,11 @@ public class SceneManager1 : MonoBehaviour
         ActivateThingsAccordingToConversation(manager.conversationCounter);
     }
 
+    private void OnDestroy()
+    {
+        Manager.onConversationCountChanged -= onConversationCountChanged;
+    }
+
     public void onConversationCountChanged(int count)
     {
         ActivateThingsAccordingToConversation(count);
@@ -28,32 +34,32 @@ public class SceneManager1 : MonoBehaviour
         switch (convoIndex)
         {
             case 0:
-                cave.SetActive(false); 
+                cave.SetActive(false);
                 squirrel.SetActive(true);
                 break;
             case 1:
-                cave.SetActive(true); 
+                cave.SetActive(true);
                 squirrel.SetActive(false);
                 break;
             case 2:
-                cave.SetActive(false); 
+                cave.SetActive(false);
                 squirrel.SetActive(false);
                 break;
             case 3:
-                cave.SetActive(true); 
+                cave.SetActive(true);
                 squirrel.SetActive(false);
                 break;
             case 4:
-                cave.SetActive(false); 
+                cave.SetActive(false);
                 squirrel.SetActive(false);
                 break;
             case 5:
             case 6:
-                cave.SetActive(true); 
+                cave.SetActive(true);
                 squirrel.SetActive(false);
                 break;
             case 7:
-                cave.SetActive(false); 
+                cave.SetActive(false);
                 squirrel.SetActive(true);
                 break;
         }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SceneManager2 : MonoBehaviour
 {
-    public GameObject turtle; 
-    Manager manager; 
-    
+    public GameObject turtle;
+    Manager manager;
+
     void Start()
     {
         GameObject empty = GameObject.Find("Manager");
@@ -15,6 +15,11 @@ public class SceneManager2 : MonoBehaviour
         Manager.onConversationCountChanged += OnConversationCountChanged;
 
         ActivateThingsForConversationIndex(manager.conversationCounter);
+    }
+
+    private void OnDestroy()
+    {
+        Manager.onConversationCountChanged -= OnConversationCountChanged;
     }
 
     public void OnConversationCountChanged(int count)

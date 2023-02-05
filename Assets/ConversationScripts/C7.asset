@@ -12,12 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4a7e1475aa347ec9e396f56833cbf8, type: 3}
   m_Name: C7
   m_EditorClassIdentifier: 
-  characterSpeaking: 01000000010000000100000001000000010000000100000001000000
+  characterSpeaking: 0000000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000000000000
   text:
-  - 'AH! You made me flip my lid bro! '
-  - 'Listen, can I tell you something? '
+  - ...
+  - 'AH! '
+  - 'Hey! '
+  - "This ain\u2019t what it looks like bro! "
+  - 'I was just laying down some fine convos with my man T '
+  - "Before he left\u2026 "
+  - "Really suddenly\u2026 "
+  - 'Ok  '
+  - "I\u2019ll spill. "
   - "I\u2019ve been alone for a long time little buddy. "
   - "And\u2026 "
-  - 'Would you like to stay awhile?  '
-  - 'I know the perfect spot, so peaceful and fresh. '
+  - 'Would you consider parking it here? With me? '
   - 'What do ya say friend? '
+  - Yes!

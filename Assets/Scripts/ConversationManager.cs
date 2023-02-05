@@ -18,16 +18,16 @@ public class ConversationManager : MonoBehaviour
 
     public void playNextConversation()
     {
-        if (manager.conversationCounter > conversations.Count)
+        if (manager.conversationCounter >= conversations.Count)
         {
             Debug.Log("You broke the game lol");
             return;
         }
-        
-        //todo - this is fucked, move please
-        manager.conversationCounter++;
 
         var nextConversation = conversations[manager.conversationCounter];
+
+        //todo - this is fucked, move please
+        manager.conversationCounter++;
 
         //todo - move controller state to DIALOG
         //Doing it here is crap code, but oh well lol

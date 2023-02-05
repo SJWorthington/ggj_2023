@@ -57,6 +57,8 @@
      <Compile Include="Assets/ConversationScripts/ConversationObject.cs" />
      <Compile Include="Assets/Scripts/Fishing.cs" />
      <Compile Include="Assets/Scripts/Squirrel.cs" />
+     <Compile Include="Assets/Scripts/MusicManager.cs" />
+     <Compile Include="Assets/Scripts/EndGameExit.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

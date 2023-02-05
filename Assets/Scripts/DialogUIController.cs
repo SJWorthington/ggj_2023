@@ -1,5 +1,7 @@
+using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DialogUIController : MonoBehaviour
 {
@@ -20,7 +22,14 @@ public class DialogUIController : MonoBehaviour
 
     [SerializeField] private InputManager _inputManager;
 
+    private Manager whyDoesEveryClassHaveThisBloodyManager;
+    
+
     // Start is called before the first frame update
+    private void Start()
+    {
+        whyDoesEveryClassHaveThisBloodyManager = FindObjectOfType<Manager>();
+    }
 
     public void UserClickedAButtonWhileWeWereDoingADialogue()
     {
@@ -44,7 +53,16 @@ public class DialogUIController : MonoBehaviour
         tiberiusCanvas.SetActive(false);
         treeCanvas.SetActive(false);
         dialogCanvas.SetActive(false);
-        _inputManager.OkayWeCanGoBackToInGameControlsNowThanks();
+
+        //todo - magic number is good :+1:
+        if (whyDoesEveryClassHaveThisBloodyManager.conversationCounter <= 7)
+        {
+            _inputManager.OkayWeCanGoBackToInGameControlsNowThanks();
+        }
+        else
+        {
+            SceneManager.LoadScene(5);
+        }
     }
 
     public void startADialog(ConversationObject conversation)

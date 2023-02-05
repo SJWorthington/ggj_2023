@@ -12,22 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4a7e1475aa347ec9e396f56833cbf8, type: 3}
   m_Name: C6
   m_EditorClassIdentifier: 
-  characterSpeaking: 0100000001000000010000000100000001000000010000000100000001000000010000000100000001000000020000000200000001000000010000000100000002000000
+  characterSpeaking: 000000000100000001000000010000000100000001000000010000000100000001000000010000000100000002000000020000000100000001000000010000000200000000000000
   text:
+  - ...
   - "Don\u2019t fret pet!"
-  - "O\u2019l TINUS has a surprise for that ol\u2019 bag of fluff. "
-  - 'I happen to know that he loves nuts.  '
-  - 'And look what I have right here. '
-  - 'I just happen to have had the perfect rhythm all along! '
-  - 'Cool your jets a moment, while I give it to him.  '
-  - 'My man! My main main man!  '
-  - "Look what o\u2019l TINUS has brought you! "
-  - 'A sweet Little nut for your nut collection!  '
-  - 'Look maybe you can sweeten the deal and give my friend a place to stay? '
-  - "You know what I\u2019m saying? "
+  - "Good ol\u2019 TINUS will hook you up, with a snack! "
+  - Know what little buddy?
+  - 'That bag of fluff, happens to lovvvve nuts! '
+  - 'Cool your jets a sec, while I try it out! '
+  - 'My man! My main man!  '
+  - 'Look what ol'' TINUS has brought you! '
+  - 'A sweet little snack, for you to chow down! '
+  - 'And in return maybye you can sweeten the atmos more, and let my pal stay here
+    on this island dig? '
+  - 'Whatta ya say? '
   - 'Very well TINUS the squirrel. '
-  - 'Your leafy friend may plant himself where he likes! '
+  - 'Your tiny friend, may plant himself where he likes! Literally. '
   - 'Thanks! You are the baddest bear ya know that?  '
   - 'Might I also say how devilishly handsome you are too. '
   - " Your eyes are like diamonds \u2026and that long tail so extra fluffy. "
   - "Thank you TINUS, I\u2019ve always liked you dah best dog."
+  - ...

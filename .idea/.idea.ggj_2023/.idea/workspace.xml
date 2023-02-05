@@ -7,17 +7,20 @@
     <list default="true" id="1f60e3ac-6192-433a-a1b4-4031a2a84b97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj_2023/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cave.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cave.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tooters.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tooters.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trish.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Fish BITING.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Fishing IN.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Gravel Steps.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Main Theme.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Menu Music.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Waves.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LeftForest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LeftForest.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Squirrel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Squirrel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TreeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TreeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +39,44 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Tests/Tests/Shared/TestDouble4x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Runtime/Inputs/InputRegistering.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Runtime/UniversalRenderPipelineGlobalSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Framework/Graph/SetGraph.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9E0B0B38-2AF6-4B14-B1CD-907E86E6AECF/50/5f6bbf6c/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ConversationScripts/ConversationObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F3BA82D6-7429-41A1-9C45-CEDE06B6AA4E/55/a3cbb70d/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.common@6.0.3/Runtime/UTess2D/Tessellator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Runtime/UniversalRenderPipelineCore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_SpriteCharacterPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Runtime/Deprecated.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Editor/ShaderGenerator/CSharpToHLSL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Runtime/Passes/PostProcessPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.17.1/Editor/PlasticSCM/Views/PendingChanges/ChangelistTreeViewItem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume/ProbeReferenceVolume.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Editor/MaterialUpgrader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Runtime/Passes/FinalBlitPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.mathematics@1.2.6/Tests/Tests/Shared/TestDouble4x3.gen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Runtime/Inputs/InputRegistering.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.15/Rider/Editor/UnitTesting/TestsCallback.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.6.4/Runtime/Utilities/WeightUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Runtime/Volume/VolumeParameter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_SpriteGlyphPropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ConversationScripts/ConversationObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.8.9/Editor/Utility/CinemachineEditorAnalytics.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F3BA82D6-7429-41A1-9C45-CEDE06B6AA4E/55/a3cbb70d/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.common@6.0.3/Runtime/UTess2D/Tessellator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Runtime/Volume/VolumeManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_SpriteAssetImporter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Editor/AssetPostProcessors/MaterialPostprocessor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.2d.tilemap/Editor/GridPaintPaletteWindowPreferences.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Runtime/Volume/VolumeComponent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.universal/Editor/ShaderGUI/ParticleGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndGameExit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F26EFEC6-D17D-47EA-A57B-DC5128C82D22/23/1bf27b32/Tree.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.17.1/Editor/PlasticSCM/Gluon/UpdateReport/UpdateReportListView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.render-pipelines.core/Runtime/Common/GlobalDynamicResolutionSettings.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -57,15 +85,16 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/InkDialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PondFish.cs" />
       <option value="$PROJECT_DIR$/Assets/ConversationScripts/ConversationObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Squirrel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TreeController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TreeController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EndGameExit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2LGbdgJRBsfzRUw0Cno5PlgkyxX" />
@@ -113,7 +142,7 @@
       <workItem from="1675518525072" duration="2165000" />
       <workItem from="1675526999620" duration="6598000" />
       <workItem from="1675551317608" duration="858000" />
-      <workItem from="1675592874591" duration="2833000" />
+      <workItem from="1675592874591" duration="5598000" />
     </task>
     <servers />
   </component>
