@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f60e3ac-6192-433a-a1b4-4031a2a84b97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj_2023/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Fish BITING.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Fishing IN.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Gravel Steps.wav.meta" beforeDir="false" />
@@ -14,13 +12,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Menu Music.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Waves.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LeftForest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LeftForest.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +133,7 @@
       <workItem from="1675518525072" duration="2165000" />
       <workItem from="1675526999620" duration="6598000" />
       <workItem from="1675551317608" duration="858000" />
-      <workItem from="1675592874591" duration="5598000" />
+      <workItem from="1675592874591" duration="6201000" />
     </task>
     <servers />
   </component>
