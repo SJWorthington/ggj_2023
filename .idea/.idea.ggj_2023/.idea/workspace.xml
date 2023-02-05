@@ -11,7 +11,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Main Theme.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Menu Music.wav.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Waves.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LeftForest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LeftForest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +83,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EndGameExit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" />
     </changedPaths>
   </component>
@@ -133,7 +134,7 @@
       <workItem from="1675518525072" duration="2165000" />
       <workItem from="1675526999620" duration="6598000" />
       <workItem from="1675551317608" duration="858000" />
-      <workItem from="1675592874591" duration="6201000" />
+      <workItem from="1675592874591" duration="6252000" />
     </task>
     <servers />
   </component>

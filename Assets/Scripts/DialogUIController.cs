@@ -23,7 +23,7 @@ public class DialogUIController : MonoBehaviour
     [SerializeField] private InputManager _inputManager;
 
     private Manager whyDoesEveryClassHaveThisBloodyManager;
-    
+
 
     // Start is called before the first frame update
     private void Start()
@@ -57,6 +57,8 @@ public class DialogUIController : MonoBehaviour
         //todo - magic number is good :+1:
         if (whyDoesEveryClassHaveThisBloodyManager.conversationCounter <= 7)
         {
+            //todo - this is fucked, move please
+            whyDoesEveryClassHaveThisBloodyManager.conversationCounter++;
             _inputManager.OkayWeCanGoBackToInGameControlsNowThanks();
         }
         else
