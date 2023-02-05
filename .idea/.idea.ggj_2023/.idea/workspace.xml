@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f60e3ac-6192-433a-a1b4-4031a2a84b97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ggj_2023/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ggj_2023/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cave.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cave.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tooters.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tooters.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trish.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Squirrel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Squirrel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TreeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TreeController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Framework/Graph/SetGraph.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9E0B0B38-2AF6-4B14-B1CD-907E86E6AECF/50/5f6bbf6c/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ConversationScripts/ConversationObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F3BA82D6-7429-41A1-9C45-CEDE06B6AA4E/55/a3cbb70d/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.common@6.0.3/Runtime/UTess2D/Tessellator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_PackageUtilities.cs" root0="SKIP_HIGHLIGHTING" />
@@ -45,13 +56,16 @@
       <option value="$PROJECT_DIR$/Assets/Ink/Demos/Basic Demo/Scripts/BasicInkExample.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InkDialogueManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PondFish.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
       <option value="$PROJECT_DIR$/Assets/ConversationScripts/ConversationObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Squirrel.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/TreeController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/DialogUIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Squirrel.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager2.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager3.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/TreeController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ConversationManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2LGbdgJRBsfzRUw0Cno5PlgkyxX" />
@@ -98,7 +112,8 @@
       <workItem from="1675500466731" duration="4725000" />
       <workItem from="1675518525072" duration="2165000" />
       <workItem from="1675526999620" duration="6598000" />
-      <workItem from="1675551317608" duration="297000" />
+      <workItem from="1675551317608" duration="858000" />
+      <workItem from="1675592874591" duration="2833000" />
     </task>
     <servers />
   </component>

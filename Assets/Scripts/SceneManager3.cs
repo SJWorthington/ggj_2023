@@ -4,42 +4,42 @@ using UnityEngine;
 
 public class SceneManager3 : MonoBehaviour
 {
-    public GameObject bird; 
-    Manager manager; 
-    // Start is called before the first frame update
+    public GameObject bird;
+    Manager manager;
+
     void Start()
     {
         GameObject empty = GameObject.Find("Manager");
         manager = empty.GetComponent<Manager>();
 
-        if(manager.conversationCounter == 0){
-            bird.SetActive(false); 
-            
-        }
-        if(manager.conversationCounter == 1){
-            bird.SetActive(false); 
-            
-        }
-        if(manager.conversationCounter == 2){
-            bird.SetActive(true); 
-            
-        }
-        if(manager.conversationCounter == 3){
-            bird.SetActive(false); 
-            
-        }
-        if(manager.conversationCounter == 4){
-            bird.SetActive(false); 
-            
-        }
-        if(manager.conversationCounter == 5 && manager.conversationCounter == 6){
-            bird.SetActive(false); 
-            
-        }
-        if(manager.conversationCounter == 7){
-            bird.SetActive(false); 
-            
-        }
+        Manager.onConversationCountChanged += OnConversationCountChanged;
+
+        ActivateThingsForConversationIndex(manager.conversationCounter);
     }
 
+    public void OnConversationCountChanged(int count)
+    {
+        ActivateThingsForConversationIndex(count);
+    }
+
+    private void ActivateThingsForConversationIndex(int convoIndex)
+    {
+        switch (convoIndex)
+        {
+            case 0:
+            case 1:
+                bird.SetActive(false);
+                break;
+            case 2:
+                bird.SetActive(true);
+                break;
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+                bird.SetActive(false);
+                break;
+        }
+    }
 }

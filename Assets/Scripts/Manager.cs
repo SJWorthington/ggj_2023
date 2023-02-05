@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,20 @@ public class Manager : MonoBehaviour
 {
     public GameObject manager;
 
-    public int conversationCounter;
+    private int _conversationCounter;
+
+    public int conversationCounter
+    {
+        get { return _conversationCounter; }
+        set
+        {
+            _conversationCounter = value;
+            onConversationCountChanged(value);
+        }
+    }
+    
+    public static event Action<int> onConversationCountChanged;
+
 
     public bool boot = false;
     public bool tire = false;

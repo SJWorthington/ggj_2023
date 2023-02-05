@@ -6,9 +6,5 @@ using UnityEngine;
 
 public class Squirrel : MonoBehaviour
 {
-
-    public void ActivateDialog()
-    {
-        //todo - start conversation? Dunno lol
-    }
+    
 }

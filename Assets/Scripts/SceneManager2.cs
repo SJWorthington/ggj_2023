@@ -6,41 +6,40 @@ public class SceneManager2 : MonoBehaviour
 {
     public GameObject turtle; 
     Manager manager; 
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         GameObject empty = GameObject.Find("Manager");
         manager = empty.GetComponent<Manager>();
 
-        if(manager.conversationCounter == 0){
-            
-            turtle.SetActive(false);
-        }
-        if(manager.conversationCounter == 1){
-            
-            turtle.SetActive(false);
-        }
-        if(manager.conversationCounter == 2){
-             
-            turtle.SetActive(false);
-        }
-        if(manager.conversationCounter == 3){
-            
-            turtle.SetActive(false);
-        }
-        if(manager.conversationCounter == 4){
-            
-            turtle.SetActive(true);
-        }
-        if(manager.conversationCounter == 5 && manager.conversationCounter == 6){
-            
-            turtle.SetActive(false);
-        }
-        if(manager.conversationCounter == 7){
-            
-            turtle.SetActive(false);
-        }
+        Manager.onConversationCountChanged += OnConversationCountChanged;
+
+        ActivateThingsForConversationIndex(manager.conversationCounter);
     }
 
+    public void OnConversationCountChanged(int count)
+    {
+        ActivateThingsForConversationIndex(manager.conversationCounter);
+    }
+
+    private void ActivateThingsForConversationIndex(int conversationIndex)
+    {
+        switch (conversationIndex)
+        {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+                turtle.SetActive(false);
+                break;
+            case 4:
+                turtle.SetActive(true);
+                break;
+            case 5:
+            case 6:
+            case 7:
+                turtle.SetActive(false);
+                break;
+        }
+    }
 }

@@ -95,7 +95,8 @@ public class TreeController : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.F) && SceneManager.GetActiveScene().buildIndex == 3){
+        if (Input.GetKeyDown(KeyCode.F) && SceneManager.GetActiveScene().buildIndex == 3)
+        {
             Debug.Log("F Pressed");
             GoFish();
         }
@@ -129,16 +130,21 @@ public class TreeController : MonoBehaviour
     private void RaycastForConversation()
     {
         //todo - do this directionally. Maybe all directions rather than facing directions? good lazy coding
-        RaycastHit2D hit = Physics2D.Raycast(_rb2d.position + Vector2.up * 0.2f, Vector2.left, 1.5f,
+        RaycastHit2D hit = Physics2D.Raycast(_rb2d.position + Vector2.up * 0.2f, viewDir, 1.5f,
             LayerMask.GetMask(("NPC")));
         if (hit.collider is not null)
         {
-            if (hit.collider.gameObject.CompareTag("Squirrel"))
+            Debug.Log($"hit is {hit}");
+            //todo - sort all tags, also make this less janky
+            if (hit.collider.gameObject.CompareTag("Squirrel")
+                || hit.collider.gameObject.CompareTag("Cave")
+                || hit.collider.gameObject.CompareTag("Bird")
+                || hit.collider.gameObject.CompareTag("Turtle"))
             {
+               
                 _conversationManager.playNextConversation();
             }
 
-            hit.collider.GetComponent<Squirrel>()?.ActivateDialog();
             hit.collider.GetComponent<PondFish>()?.ActivateDialog();
         }
     }
@@ -148,8 +154,7 @@ public class TreeController : MonoBehaviour
         this.verticalInput = verticalInput;
         this.horizontalInput = horizontalInput;
         if (verticalInput == 0 && horizontalInput == 0) return;
-        viewDir = new Vector2(horizontalInput, verticalInput);
-        viewDir = viewDir.normalized;
+        viewDir = new Vector2(horizontalInput, verticalInput).normalized;
     }
 
     public void OnActionPressed()
