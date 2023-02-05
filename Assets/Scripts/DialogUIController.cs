@@ -55,9 +55,8 @@ public class DialogUIController : MonoBehaviour
         dialogCanvas.SetActive(false);
 
         //todo - magic number is good :+1:
-        if (whyDoesEveryClassHaveThisBloodyManager.conversationCounter <= 7)
+        if (whyDoesEveryClassHaveThisBloodyManager.conversationCounter < 7)
         {
-            //todo - this is fucked, move please
             whyDoesEveryClassHaveThisBloodyManager.conversationCounter++;
             _inputManager.OkayWeCanGoBackToInGameControlsNowThanks();
         }
